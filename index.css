@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div li span  {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div li span:hover {
+    background: #edeef0;
+    outline: auto;
+}
+#listContainer {
+    max-height: 96px; /* Set the maximum height of the container */
+    overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+    overflow-x: auto
+}

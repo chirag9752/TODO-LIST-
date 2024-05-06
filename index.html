@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+        
+    <div class="bg-slate-800 w-screen h-screen">
+        <div class= 'flex justify-center pt-40 gap-5' >
+            <form>
+                <input type="text" placeholder=" enter text" class="h-12 rounded-xl " id="inputValue">
+            </form>
+            <button class="bg-blue-400 p-3 rounded-full" onclick= addthings() >ADD</button>
+        </div>
+
+        <div class="w-screen pt-5">
+            <div class="w-96 scroll-auto h-96 rounded-xl mx-auto relative bg-white text-lg space-y-3" id="listContainer">
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="./index.js" ></script>
+</body>
+</html>
